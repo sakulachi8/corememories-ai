@@ -1,6 +1,7 @@
 # CoreMemories — AI-Powered Living Legacy Platform
 
-<img width="500" height="500" alt="Kcube_AI_CoreMemories_Case_Study" src="https://github.com/user-attachments/assets/your-image-id-here" />
+<img width="500" height="500" alt="Kcube_Core_Memory_AI" src="https://github.com/user-attachments/assets/00239984-bff4-451d-bb7c-dd014234587e" />
+
 
 ---
 
