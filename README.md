@@ -33,14 +33,14 @@ Kcube AI developed **CoreMemories**, a platform blending **AI voice replication*
 ---
 
 ## Tech Stack
-| Technology          | Purpose |
-|---------------------|---------|
-| **FastAPI**         | Scalable backend services |
-| **PostgreSQL**      | Secure structured data storage |
-| **Claude API**      | Conversational AI & NLP |
-| **React**           | Responsive user interface |
-| **Voice AI Models** | Personalized AI voice replication |
-| **Azure Cloud**     | Enterprise-grade hosting & security |
+| Technology                       | Purpose                              |
+| -------------------------------- | ------------------------------------ |
+| **FastAPI**                      | Scalable backend and API services    |
+| **React**                        | Modern, responsive user interface    |
+| **PostgreSQL**                   | Secure structured data storage       |
+| **OpenAI**                       | Conversational AI & Embedding Models |
+| **Voice AI Models (ElevenLabs)** | Custom voice training & replication  |
+| **Azure Cloud**                  | Enterprise-grade hosting & security  |
 
 ---
 
@@ -62,3 +62,15 @@ sequenceDiagram
     Media-->>Vault: Enrich stories with visuals
     Family->>Vault: Suggest prompts & new questions
     Vault-->>User: Notify about new memory prompts
+
+```
+
+---
+
+## Live Link
+[🌐 Core Memories AI](https://corememories.ai/)
+
+---
+
+**Developed by [Kcube AI](https://kcube.ai)**  
+*AI Engineered for Excellence*
