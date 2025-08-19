@@ -1,2 +1,64 @@
-# corememories-ai
-A living legacy platform where voices, advice, and memories continue guiding loved ones, long after.
+# CoreMemories — AI-Powered Living Legacy Platform
+
+<img width="500" height="500" alt="Kcube_AI_CoreMemories_Case_Study" src="https://github.com/user-attachments/assets/your-image-id-here" />
+
+---
+
+## Overview
+CoreMemories is a next-generation **legacy-preservation platform** that transforms personal stories into **living conversations**. Using Conversational Memory AI and a secure Memory Vault, individuals can preserve their **voice, wisdom, and presence**, ensuring loved ones stay connected across generations.
+
+---
+
+## Problem Statement
+Families and individuals faced limitations when preserving legacies:
+1. Memories reduced to static photos or text without authentic voices.
+2. No way for future generations to ask questions or receive advice.
+3. Lack of a secure, unified system to preserve and enrich stories over time.
+
+The challenge was to design a platform that creates **interactive, secure, and emotionally meaningful legacies**.
+
+---
+
+## Solution
+Kcube AI developed **CoreMemories**, a platform blending **AI voice replication**, **conversational intelligence**, and **multimedia enrichment** into one seamless system.
+
+### Key Features
+- **Conversational Memory AI** — interactive conversations with loved ones’ authentic voices.  
+- **Memory Vault** — private, encrypted repository for memories, recordings, and media.  
+- **AI Voice Replication** — captures unique tone, personality, and laughter.  
+- **Family Collaboration** — relatives can co-build legacies with prompts & shared memories.  
+- **Multimedia Enrichment** — add photos, videos, and social content.  
+- **Flexible Plans** — individual, family, and extended family tiers.  
+
+---
+
+## Tech Stack
+| Technology          | Purpose |
+|---------------------|---------|
+| **FastAPI**         | Scalable backend services |
+| **PostgreSQL**      | Secure structured data storage |
+| **Claude API**      | Conversational AI & NLP |
+| **React**           | Responsive user interface |
+| **Voice AI Models** | Personalized AI voice replication |
+| **Azure Cloud**     | Enterprise-grade hosting & security |
+
+---
+
+## User Flow Diagram
+
+```mermaid
+sequenceDiagram
+    participant User as User
+    participant Vault as Memory Vault
+    participant VoiceAI as Voice Replication Model
+    participant ChatAI as Conversational AI
+    participant Media as Photos/Videos
+    participant Family as Family & Friends
+
+    User->>Vault: Share stories & upload media
+    User->>VoiceAI: Record script for voice learning
+    Vault-->>ChatAI: Provide stored memories for conversation
+    ChatAI-->>Family: Deliver interactive conversations
+    Media-->>Vault: Enrich stories with visuals
+    Family->>Vault: Suggest prompts & new questions
+    Vault-->>User: Notify about new memory prompts
